@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt # 確保這行有被 import
 
 # 設定頁面
 st.set_page_config(page_title="多因子量化選股工具", layout="wide")
-st.title("⚖️ 多因子量化評分系統 (台美股通用版)")
+st.title("⚖️ 多因子量化評分系統")
 st.markdown("結合 **動能 (Momentum)**、**價值 (Value)** 與 **低波動 (Low Vol)** 三大面向進行評分。")
 
 # --- 0050 成分股清單 (硬代碼，可隨時更新) ---
